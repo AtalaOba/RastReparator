@@ -1,0 +1,53 @@
+.debugError {
+	position:relative;
+	/*z-index: 999999;			*/
+	border-radius: 1px;
+	color: #000;
+	padding: 10px; margin: 10px;
+	background: #cc0000;
+}
+
+.debugError.debugError-debug {
+	background: #0C0;
+}
+
+.debugError * {
+	font: normal 11px Monaco, Arial, sans;						
+}
+
+.debugError-bloque {
+	background: #eee;
+	color: #000;			
+	padding: 10px;
+	border-radius: 1px;
+	margin: 0 0 1px 0;
+}		
+.debugError h1, .debugError h2 {
+	padding: 0;
+	margin: 10px 0 5px;
+	color: #fff;
+	font-size: 16px;
+}	
+.debugError h2 {
+	font-size: 14px;
+}
+.debugError hr {
+	margin: 10px 0;
+}
+.debugError-msg, .debugError h1.debugError-msg {
+	background: #444;
+	padding: 10px;
+	border-radius: 1px;
+	margin: 0 0 1px 0;
+	color: #fff;
+}
+
+.debugError-debug .debugError-msg, .debugError.debugError-debug h1.debugError-msg {
+	background: #777;
+}
+
+
+.debugError pre {
+	font-size: 11px;
+	color: #000 !important;
+}

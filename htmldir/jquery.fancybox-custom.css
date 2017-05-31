@@ -1,0 +1,38 @@
+.fancybox-skin {
+	padding: 25px 15px 15px 15px !important;
+}
+.fancybox-close {
+	background: none !important;
+	position: absolute;
+	top: -18px;
+	right: -18px;
+	width: 36px;
+	height: 36px;
+	cursor: pointer;
+	z-index: 8040;	
+}
+
+.fancybox-close::after {	
+    display: block;
+	content: "×";
+	position: absolute;
+    right: 22px;
+	top: 18px;
+	color: #999;
+	font-size: 28px;    
+	font-weight: 300;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.fancybox-close:hover::after {
+	color: #000
+}
+
+.fancybox-content {	
+	width: 100%;
+	overflow:hidden;
+}
+
+.fancybox-content .titulo {	
+	font-size: 20px;	
+}
